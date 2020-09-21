@@ -8,5 +8,5 @@ Lancer le script sur le DC puis créer ensuite la GPO avec le chemin suivant :
 GPO : Computer Configuration\ Policies\ Administrative Template\ System\ Device Guard\Deploy CCI
 Valeur : C:\Windows\System32\CodeIntegrity\test.bin
 
-NOTE IMPORTANTE : je recommande vivement de tester la GPO en mode audit d'abord (par défaut dans le script, enlever le "-Delete" en fin de script) afin d'éviter les blue screens au second redémarrage du poste ! De plus, les Screenshot sont vivement recommandés !
+NOTE IMPORTANTE : je recommande vivement de tester la GPO en mode audit d'abord (par défaut dans le script, enlever le "-Delete" en fin de script) afin d'éviter les blue screens au second redémarrage du poste ! De plus, les snapshots sont vivement recommandés !
 Je décline toute responsabilité en cas de problèmes !
